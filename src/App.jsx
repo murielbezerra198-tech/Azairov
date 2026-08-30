@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Link, Route, Routes, useLocation } from 'react-router-dom';
 
 const whatsappUrl =
-  'https://wa.me/message/H556YNPSAHT4H1?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20VendAI';
+  'https://wa.me/message/H556YNPSAHT4H1?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20Azairov';
 
 function useSiteEffects() {
   const location = useLocation();
@@ -60,9 +60,9 @@ function HomePage() {
     <>
       <header className="site-header">
         <div className="container header-inner">
-          <Link to="/" className="brand" aria-label="VendAI home">
-            <span className="brand-mark">V</span>
-            <span>VendAI</span>
+          <Link to="/" className="brand brand-image-link" aria-label="AZAIROV home">
+            <img src="/Icone_Azairov.png" alt="Ícone AZAIROV" className="header-icon" />
+            <img src="/Nome_Azairov.png" alt="AZAIROV" className="header-name" />
           </Link>
 
           <nav className="main-nav" aria-label="Navegação principal">
@@ -92,7 +92,7 @@ function HomePage() {
                 <span className="line block-line"><span>Humanize</span> <span className="gradient-text">conexões              </span></span>
               </h1>
               <p>
-                A VendAI foi pensada para ajudar negócios a responder mais rápido,
+                A AZAIROV foi pensada para ajudar negócios a responder mais rápido,
                 vender com mais clareza e transformar mensagens em conversões, usando
                 os canais que mais geram relacionamento e confiança hoje.
               </p>
@@ -115,7 +115,7 @@ function HomePage() {
               </ul>
             </div>
 
-            <div className="hero-visual reveal" aria-label="Dashboard da plataforma VendAI">
+            <div className="hero-visual reveal" aria-label="Dashboard da plataforma Azairov">
               <div className="dashboard-card card-main">
                 <div className="dashboard-header">
                   <span className="dot dot-green"></span>
@@ -295,7 +295,7 @@ function HomePage() {
               target="_blank"
               rel="noreferrer"
             >
-              Falar com a VendAI
+              Falar agora
             </a>
           </div>
         </section>
@@ -304,10 +304,6 @@ function HomePage() {
       <footer className="site-footer">
         <div className="container footer-inner">
           <div>
-            <Link to="/" className="brand footer-brand">
-              <span className="brand-mark">V</span>
-              <span>VendAI</span>
-            </Link>
             <p>Plataforma de IA para acelerar a operação comercial.</p>
           </div>
 
@@ -318,7 +314,7 @@ function HomePage() {
           </div>
         </div>
         <div className="container footer-bottom">
-          <span>© <span id="year"></span> VendAI. Todos os direitos reservados.</span>
+          <span>© <span id="year"></span> Todos os direitos reservados.</span>
         </div>
       </footer>
     </>
@@ -330,9 +326,9 @@ function LegalPage({ page, eyebrow, heading, children }) {
     <>
       <header className="site-header">
         <div className="container header-inner">
-          <Link to="/" className="brand" aria-label="VendAI home">
-            <span className="brand-mark">V</span>
-            <span>VendAI</span>
+          <Link to="/" className="brand brand-image-link" aria-label="AZAIROV home">
+            <img src="/Icone_Azairov.png" alt="Ícone AZAIROV" className="header-icon" />
+            <img src="/Nome_Azairov.png" alt="AZAIROV" className="header-name" />
           </Link>
 
           <nav className="main-nav" aria-label="Navegação principal">
@@ -365,10 +361,6 @@ function LegalPage({ page, eyebrow, heading, children }) {
       <footer className="site-footer">
         <div className="container footer-inner">
           <div>
-            <Link to="/" className="brand footer-brand">
-              <span className="brand-mark">V</span>
-              <span>VendAI</span>
-            </Link>
             <p>Plataforma de IA para acelerar a operação comercial.</p>
           </div>
 
@@ -379,7 +371,7 @@ function LegalPage({ page, eyebrow, heading, children }) {
           </div>
         </div>
         <div className="container footer-bottom">
-          <span>© <span id="year"></span> VendAI. Todos os direitos reservados.</span>
+          <span>© <span id="year"></span> Todos os direitos reservados.</span>
         </div>
       </footer>
     </>
@@ -394,7 +386,7 @@ function PrivacyPage() {
       heading="Como protegemos seus dados e sua privacidade."
     >
       <p>
-        Esta Política de Privacidade descreve como a VendAI coleta, usa, armazena,
+        Esta Política de Privacidade descreve como a Azairov coleta, usa, armazena,
         compartilha e protege informações pessoais fornecidas por usuários da
         plataforma, visitantes do site e clientes.
       </p>
@@ -412,8 +404,8 @@ function PrivacyPage() {
         base legal prevista na Lei Geral de Proteção de Dados (LGPD), como
         consentimento, execução de contrato, obrigação legal, interesse legítimo
         ou defesa de interesses. Para dúvidas sobre privacidade, o usuário pode
-        entrar em contato com a equipe da VendAI por meio do e-mail
-        contato@vendai.com.
+        entrar em contato com a equipe da Azairov por meio do e-mail
+        contato@azairov.com.
       </p>
 
       <h2>3. Uso das informações</h2>
@@ -453,7 +445,7 @@ function PrivacyPage() {
       <p>
         Adotamos medidas técnicas e organizacionais para proteger dados contra acesso
         não autorizado, perda, uso indevido ou alteração não consentida. No entanto,
-        nenhuma plataforma digital é completamente imune a riscos, e a VendAI busca
+        nenhuma plataforma digital é completamente imune a riscos, e a Azairov busca
         continuamente aprimorar seus controles de segurança.
       </p>
 
@@ -480,7 +472,7 @@ function PrivacyPage() {
       <h2>11. Contato</h2>
       <p>
         Para dúvidas ou solicitações relacionadas à privacidade, entre em contato com
-        a equipe da VendAI pelo e-mail: contato@vendai.com.
+        a equipe da Azairov pelo e-mail: contato@azairov.com.
       </p>
     </LegalPage>
   );
@@ -491,17 +483,17 @@ function TermsPage() {
     <LegalPage
       page="terms"
       eyebrow="Termos de Serviço"
-      heading="Condições gerais de uso da plataforma VendAI."
+      heading="Condições gerais de uso da plataforma Azairov."
     >
       <p>
-        Ao acessar ou utilizar a plataforma VendAI, você concorda com estes Termos de
+        Ao acessar ou utilizar a plataforma Azairov, você concorda com estes Termos de
         Serviço. Caso não concorde com qualquer disposição, por favor, não utilize a
         plataforma.
       </p>
 
       <h2>1. Definição dos serviços</h2>
       <p>
-        A VendAI oferece soluções de inteligência artificial e automação para apoiar a
+        A Azairov oferece soluções de inteligência artificial e automação para apoiar a
         gestão comercial, prospecção, relacionamento e análise de oportunidades de venda.
       </p>
 
@@ -521,7 +513,7 @@ function TermsPage() {
       <p>
         Os dados inseridos pelo cliente na plataforma, incluindo leads, históricos de
         conversas, métricas, informações de contato e demais materiais fornecidos pelo
-        usuário, continuam sendo de propriedade do cliente. A VendAI apenas processa
+        usuário, continuam sendo de propriedade do cliente. A Azairov apenas processa
         esses dados para prestar o serviço contratado e não se apropria deles para uso
         comercial independente, salvo quando houver autorização expressa do cliente ou
         exigência legal.
@@ -529,37 +521,37 @@ function TermsPage() {
 
       <h2>5. Inteligência artificial e supervisão humana</h2>
       <p>
-        Os recursos de Inteligência Artificial disponibilizados pela VendAI têm finalidade
+        Os recursos de Inteligência Artificial disponibilizados pela Azairov têm finalidade
         de apoio à tomada de decisão e automação de processos. O usuário reconhece que
         outputs gerados por IA podem eventualmente conter imprecisões, interpretações
         inadequadas ou limitações técnicas. Por isso, as abordagens comerciais, mensagens,
         prospecções e demais sugestões produzidas pela plataforma devem ser revisadas,
         validadas e aprovadas pelo usuário final antes de serem enviadas a clientes ou
-        parceiros reais. A VendAI não se responsabiliza por decisões comerciais tomadas
+        parceiros reais. A Azairov não se responsabiliza por decisões comerciais tomadas
         com base em conteúdo gerado automaticamente sem validação humana.
       </p>
 
       <h2>6. Propriedade intelectual</h2>
       <p>
-        Todo o conteúdo, interfaces, marca, software e materiais relacionados à VendAI
+        Todo o conteúdo, interfaces, marca, software e materiais relacionados à Azairov
         são de propriedade da empresa ou de seus licenciadores e não podem ser copiados,
         distribuídos ou reutilizados sem autorização expressa.
       </p>
 
       <h2>7. Responsabilidade e limitação de responsabilidade</h2>
       <p>
-        A VendAI buscará oferecer serviços com qualidade e segurança, mas não garante
+        A Azairov buscará oferecer serviços com qualidade e segurança, mas não garante
         resultados específicos em processos de venda ou conversão. A empresa não será
         responsável por prejuízos decorrentes de interpretação indevida, uso inadequado,
         ausência de revisão humana ou decisões tomadas com base em conteúdo gerado por IA.
-        Em nenhuma hipótese a VendAI será responsável por danos diretos, indiretos,
+        Em nenhuma hipótese a Azairov será responsável por danos diretos, indiretos,
         incidentais, consequenciais ou especiais decorrentes do uso da plataforma ou da
         indisponibilidade dos serviços.
       </p>
 
       <h2>8. Disponibilidade e manutenção</h2>
       <p>
-        A VendAI se esforça para manter a plataforma disponível e funcional, porém pode
+        A Azairov se esforça para manter a plataforma disponível e funcional, porém pode
         ocorrer indisponibilidade temporária em razão de manutenção, upgrades, falhas
         técnicas, problemas de infraestrutura ou circunstâncias fora do seu controle.
         Manutenções programadas e eventuais interrupções serão comunicadas quando
@@ -569,7 +561,7 @@ function TermsPage() {
 
       <h2>9. Cancelamento e encerramento</h2>
       <p>
-        A VendAI pode, a seu critério, suspender ou encerrar o acesso de usuários que
+        A Azairov pode, a seu critério, suspender ou encerrar o acesso de usuários que
         violem estes termos, comprometam a segurança da plataforma ou realizem uso indevido.
       </p>
 
@@ -587,7 +579,7 @@ function TermsPage() {
 
       <h2>12. Contato</h2>
       <p>
-        Dúvidas sobre estes termos podem ser enviadas para o e-mail: contato@vendai.com.
+        Dúvidas sobre estes termos podem ser enviadas para o e-mail: contato@azairov.com.
       </p>
     </LegalPage>
   );

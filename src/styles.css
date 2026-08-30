@@ -102,21 +102,60 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   font-weight: 800;
   letter-spacing: -0.04em;
+}
+
+.brand-image-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.brand-image-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-icon {
+  display: block;
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.header-name {
+  display: block;
+  height: 57px;
+  width: auto;
+  object-fit: contain;
 }
 
 .brand-mark {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, var(--primary), #4f46e5);
-  color: var(--white);
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.02);
   box-shadow: 0 16px 28px rgba(124, 58, 237, 0.35);
+}
+
+.brand-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.brand-text {
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .main-nav,
