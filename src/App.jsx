@@ -73,7 +73,7 @@ function HomePage() {
           </nav>
 
           <div className="header-actions">
-            <Link to="/privacy" className="text-link">Privacidade</Link>
+            <Link to="/privacidade" className="text-link">Privacidade</Link>
             <a href={whatsappUrl} className="button button-primary" target="_blank" rel="noreferrer">
               Falar agora
             </a>
@@ -308,8 +308,8 @@ function HomePage() {
           </div>
 
           <div className="footer-links">
-            <Link to="/privacy">Política de Privacidade</Link>
-            <Link to="/terms">Termos de Serviço</Link>
+            <Link to="/privacidade">Política de Privacidade</Link>
+            <Link to="/termos">Termos de Serviço</Link>
             <a href="/#contato">Contato</a>
           </div>
         </div>
@@ -339,7 +339,7 @@ function LegalPage({ page, eyebrow, heading, children }) {
           </nav>
 
           <div className="header-actions">
-            <Link to={page === 'privacy' ? '/terms' : '/privacy'} className="text-link">
+            <Link to={page === 'privacy' ? '/termos' : '/privacidade'} className="text-link">
               {page === 'privacy' ? 'Termos de Serviço' : 'Política de Privacidade'}
             </Link>
             <a href="/#contato" className="button button-primary">Agendar demo</a>
@@ -365,8 +365,8 @@ function LegalPage({ page, eyebrow, heading, children }) {
           </div>
 
           <div className="footer-links">
-            <Link to="/privacy">Política de Privacidade</Link>
-            <Link to="/terms">Termos de Serviço</Link>
+            <Link to="/privacidade">Política de Privacidade</Link>
+            <Link to="/termos">Termos de Serviço</Link>
             <a href="/#contato">Contato</a>
           </div>
         </div>
@@ -592,8 +592,8 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/privacy" element={<PrivacyPage />} />
-      <Route path="/terms" element={<TermsPage />} />
+      <Route path="/privacidade" element={<PrivacyPage />} />
+      <Route path="/termos" element={<TermsPage />} />
       <Route path="*" element={<HomePage />} />
     </Routes>
   );
